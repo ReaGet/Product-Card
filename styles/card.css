@@ -24,43 +24,45 @@
   justify-content: space-between;
 }
 
+.card__content > * {
+  margin-top: 3rem;
+}
+
 .card__tag {
   text-transform: uppercase;
   letter-spacing: 0.5em;
   color: var(--color-neutral-grayish-blue);
-  font-size: 14px;
+  font-size: 1.4rem;
+  margin-top: 0;
 }
 
 .card__title {
   font-family: "Fraunces";
-  font-size: 36px;
-  margin-top: 30px;
+  font-size: 4rem;
 }
 
 .card__description {
   color: var(--color-neutral-grayish-blue);
-  line-height: 1.5rem;
-  letter-spacing: 0.5px;
-  font-size: 12px;
-  margin-top: 30px;
+  line-height: 2rem;
+  letter-spacing: 0.05rem;
+  font-size: 1.4rem;
 }
 
 .card__price-wrapper {
   display: flex;
   align-items: center;
-  margin-top: 30px;
 }
 
 .card__price {
   font-family: "Fraunces";
   color: var(--color-primary-cyan);
-  font-size: 30px;
+  font-size: 3.6rem;
 }
 
 .card__price--old {
   font-family: "Montserrat";
   color: var(--color-neutral-grayish-blue);
-  font-size: 14px;
+  font-size: 1.4rem;
   text-decoration: line-through;
   margin-left: 20px;
 }
@@ -69,7 +71,6 @@
   user-select: none;
   background-color: var(--color-primary-cyan);
   color: #fff;
-  margin-top: 30px;
 }
 
 .card__button:hover {
